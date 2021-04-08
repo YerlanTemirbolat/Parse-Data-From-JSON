@@ -88,7 +88,7 @@ class UsersViewController: UIViewController {
 
   private func setupSearchController() {
     searchController.delegate = self
-    //searchController.searchResultsUpdater = self
+    searchController.searchResultsUpdater = self
     searchController.obscuresBackgroundDuringPresentation = false
     searchController.searchBar.autocapitalizationType = .none
     searchController.searchBar.placeholder = searchFieldPlaceHolder
