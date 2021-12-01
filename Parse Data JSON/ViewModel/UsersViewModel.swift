@@ -87,7 +87,7 @@ extension UsersViewModel {
   }
 
   func numOfRows(in section: Int) -> Int {
-    filteredUsers.count - 1
+    filteredUsers.count
   }
 
   func name(for indexPath: IndexPath) -> String {
